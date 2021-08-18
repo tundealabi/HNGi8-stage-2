@@ -1,4 +1,3 @@
-import React, { FC } from 'react';
 import { AppBody } from './App.styled';
 import About from './components/about/About';
 import Contact from './components/contact/Contact';

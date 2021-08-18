@@ -1,9 +1,7 @@
 import AppBar from '@material-ui/core/AppBar';
 import ToolBar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography';
-// import Link from '@material-ui/core/Link';
 import IconButton from '@material-ui/core/IconButton';
-import Button from '@material-ui/core/Button';
 import styled from 'styled-components';
 import { Link } from 'react-scroll';
 

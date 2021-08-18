@@ -13,12 +13,7 @@ import {
 } from './Header.styled';
 
 const Header: FC = () => {
-  const [links, setLinks] = useState(() => [
-    'home',
-    'about',
-    'work',
-    'contact',
-  ]);
+  const [links] = useState(() => ['home', 'about', 'work', 'contact']);
   const [showRightDrawer, setRightDrawer] = useState(false);
 
   return (

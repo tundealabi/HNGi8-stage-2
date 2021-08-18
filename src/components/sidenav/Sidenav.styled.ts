@@ -1,5 +1,4 @@
 import Drawer from '@material-ui/core/Drawer';
-import Button from '@material-ui/core/Button';
 import styled from 'styled-components';
 
 export const StyledDrawer = styled(Drawer)`

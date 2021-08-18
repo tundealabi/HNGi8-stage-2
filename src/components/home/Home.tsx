@@ -2,7 +2,6 @@ import { FC } from 'react';
 import Typewriter from '../typewriter/Typewriter';
 import GButton from '../button/button';
 import Link from '@material-ui/core/Link';
-import DeleteIcon from '@material-ui/icons/Delete';
 import LinkedIn from '@material-ui/icons/LinkedIn';
 import GitHub from '@material-ui/icons/GitHub';
 import devimage from '../../assets/developer-image.png';
