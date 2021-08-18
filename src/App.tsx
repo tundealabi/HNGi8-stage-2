@@ -1,25 +1,23 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { FC } from 'react';
+import { AppBody } from './App.styled';
+import About from './components/about/About';
+import Contact from './components/contact/Contact';
+import Header from './components/header/Header';
+import Home from './components/home/Home';
+import Work from './components/work/Work';
 
 function App() {
+  console.log('My Name Is Alabi Akintunde');
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Header />
+      <AppBody>
+        <Home />
+        <About />
+        <Work />
+        <Contact />
+      </AppBody>
+    </>
   );
 }
 
